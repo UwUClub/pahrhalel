@@ -83,12 +83,12 @@ namespace HyperCasual.Runner
 
             m_KeyboardInput = 0;
 
-            if (Keyboard.current.aKey.isPressed)
+            if (Keyboard.current.leftArrowKey.isPressed)
             {
                 m_KeyboardInput = -1;
                 m_HasInput = true;
             }
-            else if (Keyboard.current.zKey.isPressed)
+            else if (Keyboard.current.rightArrowKey.isPressed)
             {
                 m_KeyboardInput = 1;
                 m_HasInput = true;
