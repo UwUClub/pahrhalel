@@ -60,7 +60,7 @@ namespace HyperCasual.Runner
         Transform m_Transform;
         Vector3 m_StartPosition;
         bool m_HasInput;
-        float m_MaxXPosition;
+        float m_MaxXPosition = 4f;
         float m_XPos;
         float m_ZPos;
         float m_TargetPosition;

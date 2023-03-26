@@ -28,9 +28,8 @@ namespace HyperCasual.Runner
 
         [SerializeField]
         bool m_LockCameraPosition;
-
-        [SerializeField]
-        bool m_SmoothCameraFollow;
+        
+        public bool m_SmoothCameraFollow;
 
         [SerializeField]
         float m_SmoothCameraFollowStrength = 10.0f;
