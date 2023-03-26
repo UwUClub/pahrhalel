@@ -7,14 +7,8 @@ using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 namespace HyperCasual.Runner
 {
-    /// <summary>
-    /// A simple Input Manager for a Runner game.
-    /// </summary>
     public class InputManager : MonoBehaviour
     {
-        /// <summary>
-        /// Returns the InputManager.
-        /// </summary>
         public static InputManager Instance => s_Instance;
         static InputManager s_Instance;
 
@@ -24,6 +18,7 @@ namespace HyperCasual.Runner
         bool m_HasInput;
         Vector3 m_InputPosition;
         Vector3 m_PreviousInputPosition;
+        float m_KeyboardInput;
 
         void Awake()
         {
@@ -86,9 +81,36 @@ namespace HyperCasual.Runner
             }
 #endif
 
+            m_KeyboardInput = 0;
+
+            if (Keyboard.current.aKey.isPressed)
+            {
+                m_KeyboardInput = -1;
+                m_HasInput = true;
+            }
+            else if (Keyboard.current.zKey.isPressed)
+            {
+                m_KeyboardInput = 1;
+                m_HasInput = true;
+            }
+            else
+            {
+                m_HasInput &= false;
+            }
+
             if (m_HasInput)
             {
-                float normalizedDeltaPosition = (m_InputPosition.x - m_PreviousInputPosition.x) / Screen.width * m_InputSensitivity;
+                float normalizedDeltaPosition;
+
+                if (m_KeyboardInput != 0)
+                {
+                    normalizedDeltaPosition = m_KeyboardInput * m_InputSensitivity;
+                }
+                else
+                {
+                    normalizedDeltaPosition = (m_InputPosition.x - m_PreviousInputPosition.x) / Screen.width * m_InputSensitivity;
+                }
+
                 PlayerController.Instance.SetDeltaPosition(normalizedDeltaPosition);
             }
             else
@@ -100,4 +122,3 @@ namespace HyperCasual.Runner
         }
     }
 }
-
