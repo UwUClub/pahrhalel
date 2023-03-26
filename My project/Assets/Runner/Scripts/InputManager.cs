@@ -70,7 +70,7 @@ namespace HyperCasual.Runner
 
                 if (!m_HasInput)
                 {
-                    m_PreviousInputPosition = m_InputPosition;
+                    m_PreviousInputPosition = m_InputPosipaustion;
                 }
                 
                 m_HasInput = true;
