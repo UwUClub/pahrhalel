@@ -20,6 +20,8 @@ namespace HyperCasual.Runner
         float m_Value;
         [SerializeField]
         RectTransform m_Text;
+        [SerializeField]
+        Cube mongroscube;
 
         bool m_Applied;
         Vector3 m_TextInitialScale;
@@ -28,6 +30,7 @@ namespace HyperCasual.Runner
         {
             ChangeSpeed,
             ChangeSize,
+            ChangePosition,
         }
 
         /// <summary>
@@ -57,7 +60,7 @@ namespace HyperCasual.Runner
         /// </summary>
         public override void ResetSpawnable()
         {
-            m_Applied = false;
+
         }
 
         protected override void Awake()
@@ -72,7 +75,7 @@ namespace HyperCasual.Runner
 
         void OnTriggerEnter(Collider col)
         {
-            if (col.CompareTag(k_PlayerTag) && !m_Applied)
+            if (col.CompareTag(k_PlayerTag))
             {
                 ActivateGate();
             }
@@ -89,9 +92,11 @@ namespace HyperCasual.Runner
                 case GateType.ChangeSize:
                     PlayerController.Instance.AdjustScale(m_Value);
                 break;
+                case GateType.ChangePosition:
+                    mongroscube.ChangePos(m_Value);
+                break;
             }
 
-            m_Applied = true;
         }
     }
 }

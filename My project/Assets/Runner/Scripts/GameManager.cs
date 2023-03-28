@@ -29,6 +29,9 @@ namespace HyperCasual.Runner
         [SerializeField]
         AbstractGameEvent m_LoseEvent;
 
+        [SerializeField]
+        Cube mongroscube;
+
         LevelDefinition m_CurrentLevel;
 
         /// <summary>
@@ -101,6 +104,7 @@ namespace HyperCasual.Runner
             {
                 LevelManager.Instance.ResetSpawnables();
             }
+            mongroscube.ResetCube();
         }
 
         /// <summary>
