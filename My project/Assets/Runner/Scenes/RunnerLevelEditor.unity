@@ -190,7 +190,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf39c38b7ee8341249aecd2609925601, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -302,6 +302,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -484,6 +489,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -569,6 +579,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -643,6 +658,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1 &410087039
@@ -827,6 +847,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1 &515988859
@@ -883,7 +908,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1093,6 +1118,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1001 &534624704
@@ -1162,6 +1192,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1001 &597236407
@@ -1236,6 +1271,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -1349,6 +1389,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!4 &655167257 stripped
@@ -1439,6 +1484,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -1527,7 +1577,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf39c38b7ee8341249aecd2609925601, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1624,7 +1674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf39c38b7ee8341249aecd2609925601, type: 2}
+  - {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1796,6 +1846,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!4 &805742953 stripped
@@ -2076,7 +2131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e2d13250d13954c7991517c511efc6be, type: 2}
+  - {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2333,6 +2388,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1001 &1064519397
@@ -2417,6 +2477,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -2506,6 +2571,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -2594,7 +2664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf39c38b7ee8341249aecd2609925601, type: 2}
+  - {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2706,6 +2776,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -2950,6 +3025,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1001 &1170425564
@@ -3029,6 +3109,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -3148,6 +3233,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -3233,6 +3323,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -3325,6 +3420,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!4 &1346994778 stripped
@@ -3392,7 +3492,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e2d13250d13954c7991517c511efc6be, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3618,6 +3718,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -3747,6 +3852,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -3839,6 +3949,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5928528988436547237, guid: be33d0e842eb84b2786dd46a6869b1ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33d0e842eb84b2786dd46a6869b1ce, type: 3}
 --- !u!1001 &1881544046
@@ -3918,6 +4033,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -4013,6 +4133,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: ab22d0748f0e442098d9148039da7b5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5eab102e00aee841831d3a85116a0cc, type: 2}
     - target: {fileID: 8843575610666998837, guid: ab22d0748f0e442098d9148039da7b5d,
         type: 3}
       propertyPath: m_text
@@ -4092,6 +4217,11 @@ PrefabInstance:
       propertyPath: mongroscube
       value: 
       objectReference: {fileID: 515988864}
+    - target: {fileID: 5928528988436547237, guid: b18cf6814cc40924290939b5beb6c88c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7295731719642658160, guid: b18cf6814cc40924290939b5beb6c88c,
         type: 3}
       propertyPath: m_text
@@ -4254,6 +4384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2141710850789030952, guid: 6dc42ad68cc8044df837a14ff82a63dc,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: a38f7b5b103d143b68ac7b651728e3ed, type: 3}
     - target: {fileID: 7680686150170255983, guid: 6dc42ad68cc8044df837a14ff82a63dc,
         type: 3}
       propertyPath: m_RootOrder
